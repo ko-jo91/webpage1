@@ -19,7 +19,7 @@
 .main {
     position: relative;
     background-color: var(--black);
-    height: 100vh;
+    height: 270vh;
     
 }
 .main::before {
@@ -151,16 +151,18 @@ list-style: none;
 
 }
 .buttons .con {
-color: var(--white);
+
+background-color: var(--cyan);
 display: inline-block;
 padding: 20px 60px;
-border: solid 2px var(--white);
+border: solid 2px var(--black);
 text-decoration: none;
 list-style: none;
 
 
 }
 .main__body {
+    
     isolation: isolate;
     display: flex;
     justify-content: center;
@@ -170,6 +172,7 @@ list-style: none;
     
 }
 .main__body1 {
+    
     padding: 10px 30px;
     gap: 600px;
     justify-content: center;
@@ -178,14 +181,14 @@ list-style: none;
 }
 .sub__body h1 {
     text-align: center;
-    color: var(--black);
+    color: var(--white);
     width: 700px;
     font-size: 3rem;
     margin-bottom: 30px;
 }
 .sub__body h2 {
     text-align: center;
-    color: var(--black);
+    color: var(--white);
     width: 700px;
     font-size: 2.1rem;
     font-weight: 250;
@@ -255,10 +258,10 @@ list-style: none;
 
 }
     .buttons .con {
-    color: var(--white);
+    
     display: inline-block;
     padding: 30px 30px;
-    border: solid 2px var(--white);
+    border: solid 2px var(--black);
     text-decoration: none;
     list-style: none;
 }    
@@ -299,6 +302,10 @@ list-style: none;
 }
 .hero {
     margin-top: 180px;
+
+}
+
+@media (max-width: 450px) {
 
 }
    
