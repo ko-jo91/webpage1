@@ -19,7 +19,7 @@
 .main {
     position: relative;
     background-color: var(--black);
-    height: 300vh;
+    height: 270vh;
     
 }
 .main::before {
