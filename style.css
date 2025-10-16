@@ -19,7 +19,7 @@
 .main {
     position: relative;
     background-color: var(--black);
-    height: 270vh;
+    height: 300vh;
     
 }
 .main::before {
@@ -306,6 +306,21 @@ list-style: none;
 }
 
 @media (max-width: 450px) {
+    .main__body1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px;
+
+      
+    }
+    .sub__body h1 {
+        font-size: 1.6rem;
+    }
+    .sub__body h2 {
+        margin-bottom: 70px;
+        font-size: 1.6em;
+        
+    }
 
 }
    
