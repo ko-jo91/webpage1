@@ -283,7 +283,7 @@ list-style: none;
         left: 0;
         width: 100%;
         padding: px 0 25px;
-        transform: translate(100%);
+        transform: translate(-100%);
         transition: all 0.6s ease-in;
        
 
