@@ -14,16 +14,14 @@
 
 
 }
+
 .nav--bar {
     color: var(--white);
     height: 70px;
-    padding-left: 40px;
-    padding-right: 40px;
     background-color: var(--black);
+    align-items: center;
     display: flex;
     justify-content:space-between;
-    align-items: center;
-    margin: 0 30px;
 }
 .a {
     color: var(--white);
@@ -36,15 +34,16 @@
 .nav--logo {
     background-color: var(--purple);
     background-image: linear-gradient(to top, var(--purple) 30%, var(--orange) 70%);
+    padding-left: 30px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-
 }
 
 .nav--items {
     display: flex;
+    margin-right: 30px;
     gap: 40px;
 }
 .nav--link {
@@ -61,16 +60,35 @@
 .hamburger {
     display: none;
 }
+.main {
+    position: relative;
+    background-color: var(--black);
+    min-height: 80vh;
+    
+}
+.main::before {
+    content: "";
+    position: absolute;
+    background-image: url(images/fabrizio-conti-xPFhK0MGsyw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    inset: 0;
+    opacity: 0.6;
+
+}
 .hero {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    isolation: isolate;
+    color: var(--white);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 40px;
+   
 }
 .sub--hero1 h1 {
+    margin-top: 60px;
     font-size: 1.4rem;
     font-weight: 400;
 }
@@ -85,6 +103,17 @@
 
 }
 .book--now {
+    font-size: 1.2rem;
+    font-weight: 100;
     list-style: none;
     text-decoration: none;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 15px 25px;
+}
+.book--now:hover {
+    transition: all 0.3s ease-in;
+    color: var(--black);
+    background-color: var(--white);
+    border: solid var(--black) 1px;
 }
