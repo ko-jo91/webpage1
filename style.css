@@ -82,6 +82,9 @@
 .sub--hero2 h1 {
     font-size: 1.4rem;
     font-weight: 250;
-    
 
+}
+.book--now {
+    list-style: none;
+    text-decoration: none;
 }
