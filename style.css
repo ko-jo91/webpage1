@@ -4,19 +4,34 @@
     box-sizing: borded-box;
     font-family: 'Mulish', sans-serif;
 }
+:root {
+    --black: #000000;
+    --white: #fff;
+    --purple: #7d4cde;
+    --orange: #eb911b;
+    --green: #61d71c;
+
+}
 .nav--bar {
     display: flex;
     justify-content:space-between;
     align-items: center;
     margin: 0 30px;
 }
-.nav--list {
-    display: flex;
-    list-style: none;
+.nav--logo {
     text-decoration: none;
+    list-style: none;
+    letter-spacing: 8px;
 
+}
+.nav--items {
+    display: flex;
+    gap: 40px;
 }
 .nav--link {
     list-style: none;
     text-decoration: none;
+}
+.hamburger {
+    display: none;
 }
