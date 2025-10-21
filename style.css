@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: borded-box;
+    font-family: 'Mulish', sans-serif;
+}
+.nav--bar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+.nav--list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+.nav--link {
+    list-style: none;
+    text-decoration: none;
+}
