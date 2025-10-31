@@ -173,3 +173,51 @@
     max-width: 100%;
     height: auto;
 }
+.sub {
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.how h1 {
+    font-weight: 800;
+}
+.placards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.free--consultation {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   border: solid var(--black) 7px;
+   
+} 
+.free--consultation h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.free--consultation h2 {
+    font-size: 1.1rem;
+    font-weight: 80;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.bar {
+    height: 2px;
+    width: 250px;
+    background-color: var(--black);
+    margin-bottom: 20px;
+}
+.time {
+    font-weight: 100;
+    
+}
+.book--it {
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
