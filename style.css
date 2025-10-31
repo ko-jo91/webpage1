@@ -184,12 +184,99 @@ a {
 }
 .how h1 {
     font-weight: 800;
+    margin-left: 100px;
 }
 .placards {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .free--consultation, .online--coaching, .self--improvement {
     text-align: center;
+    border: solid var(--black) 5px;
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.free, .online, .self {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.use {
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 70;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.use1 {
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 70;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.bar {
+    height: 3px;
+    width: 300px;
+    background-color: var(--black);
+    margin-bottom: 40px;
+}
+.bar1 {
+    height: 3px;
+    width: 300px;
+    background-color: var(--black);
+    margin-bottom: 20px;
+
+}
+.time, .amt, .days {
+    font-size: 0.95rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.book--it1, .book--it2, .book--it3 {
+    color: var(--white);
+    background-color: var(--black);
+    padding: 10px 5px;
+}
+.book--it1:hover, .book--it2:hover, .book--it3:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: solid var(--black) 1px;
+    transition: all 0.4s ease-in;
+}
+.book--it1 {
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+.book--it2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.book--it3 {
+    margin-top: 57px;
+    margin-bottom: 50px;
+}
+.more--services {
+    display: inline-block;
+    text-align: center;
+}
+.serv {
+    display: inline-block;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+.more--services {
+    background-color: var(--orange);
+    padding: 10px 30px;
+    
 }
