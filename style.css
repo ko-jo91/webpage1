@@ -11,6 +11,7 @@
     --orange: #eb911b;
     --green: #61d71c;
     --red:   #e91c1c;
+    --aquamarine:  #33dcce;
 
 
 }
@@ -295,6 +296,10 @@ a {
     background-color: var(--white);
     color: var(--black);
     border: solid var(--black) 1px;
+}
+footer {
+    background-color: var(--aquamarine);
+    padding: 20px;
 }
 .contact--and--form {
     display: flex;
