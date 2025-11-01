@@ -299,7 +299,7 @@ a {
 .contact--and--form {
     display: flex;
     justify-content: space-around;
-    margin: 20px auto
+    margin: 30px auto
 }
 .con {
     font-size: 1.3rem;
@@ -339,6 +339,29 @@ a {
 }
 .nom {
     display: flex;
-    gap: 45px;
+    gap: 25px;
     margin-bottom: 30px;
+}
+.email, .subj {
+    margin-bottom: 20px;
+}
+.mess {
+    margin-bottom: 10px;
+}
+.suby {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.submit {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 15px 60px;
+   
+}
+.submit:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: solid var(--black) 2px;
+    transition: all 0.4s ease-in;
 }
