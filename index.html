@@ -118,45 +118,54 @@ git push -u origin main
 
     <!-- FOOTER -->
      <footer>
-        <div class="bar1"></div>
-
         <div class="contact--and--form">
 
             <div class="contact">
-                <h1>CONTACT</h1>
-                <h2>500 Terry Francine Street,San Francisco, CA 94158 <br>
-                    Tel: 123-456-7890 <br>
-                    Fax: 123-456-7890 <br>
-                    info@mysite.com
-                </h2>
+                <h1 class="con">CONTACT</h1>
+                <h2 class="addy">500 Terry Francine Street, <br>San Francisco, CA 94158</h2>
+                <h2 class="cell">Tel: 123-456-7890 <br>Fax: 123-456-7890 </h2>
+                <h2 class="mail">info@mysite.com</h2>      
                 <div class="logos">
-                    <img src="images/logo-facebook.svg" alt="Facebook" width="30px">
-                    <img src="images/logo-twitter.svg" alt="X" width="30px">
-                    <img src="images/logo-instagram.svg" alt="Instagram" width="30px">
-                    <img src="images/logo-youtube.svg" alt="Youtube" width="30px">
+                    <a href="#"><img src="images/logo-facebook.svg" alt="Facebook" width="25px"></a>
+                    <a href="#"><img src="images/logo-twitter.svg" alt="X" width="25px"></a>
+                    <a href="#"><img src="images/logo-instagram.svg" alt="Instagram" width="25px"></a>
+                    <a href="#"><img src="images/logo-youtube.svg" alt="Youtube" width="25px"></a>
                 </div>
-                <h2>© 2035 by Personal Life Coach.</h2>
-                <h2>Powered and secured by Wix</h2>   
+                <h2 class="copy">© 2025 by Personal Life Coach.</h2>
+                <h2 class="pow">Powered and Secured by Kojo.</h2>   
             </div>
 
             <div class="form">
                 <div class="nom">
-                <label class="label-1" for="firstname">Firstname</label>
-                <input type="text" id="firstname" spellcheck="false" placeholder="Firstname" required>
+                    <div class="nom1">
+                        <label class="label-1" for="firstname">Firstname</label><br>
+                        <input type="text" id="firstname" spellcheck="false" placeholder="Firstname" required size="50">
+                    </div>
 
-                <label class="label-2" for="lastname">Lastname</label>
-                <input type="text" id="lastname" spellcheck="false" placeholder="Lastname" required>
+                    <div class="nom2">
+                        <label class="label-2" for="lastname">Lastname</label><br>
+                        <input type="text" id="lastname" spellcheck="false" placeholder="Lastname" required size="50">
+                    </div>
+                </div>
+                
+                <div class="email">
+                    <label class="label-3" for="emai">Email</label>
+                    <input type="text" id="email" spellcheck="falese" placeholder="Email address" required>
+  
+                </div>
+                
+                <div class="subj">
+                    <label class="label-4" for="subject">Subject</label>
+                    <input type="text" id="subject" spellcheck="false" required>
 
                 </div>
-
-                <label class="label-3" for="emai">Email</label>
-                <input type="text" id="email" spellcheck="falese" placeholder="Email address" required>
-
-                <label class="label-4" for="subject">Subject</label>
-                <input type="text" id="subject" spellcheck="false" required>
                 
-                <label class="label-5" for="message">Message</label>
-                <input type="text" id="message" spellcheck="false" placeholder="Type Here" required>
+                <div class="mess">
+                    <label class="label-5" for="message">Message</label>
+                    <input type="text" id="message" spellcheck="false" placeholder="Type Here" required>
+
+                </div>
+                
             </div>
         </div>
 

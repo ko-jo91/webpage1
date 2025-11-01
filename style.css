@@ -298,12 +298,47 @@ a {
 }
 .contact--and--form {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 20px auto
+}
+.con {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+.addy {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.cell {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.mail {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 30px;
 }
 .form {
     display: flex;
     flex-direction: column;
 }
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.copy {
+    font-size: 1rem;
+    font-weight: 100;
+}
+.pow {
+    font-size: 1rem;
+    font-weight: 100;
+}
 .nom {
     display: flex;
+    gap: 45px;
+    margin-bottom: 30px;
 }
