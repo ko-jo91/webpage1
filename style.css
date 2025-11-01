@@ -296,3 +296,14 @@ a {
     color: var(--black);
     border: solid var(--black) 1px;
 }
+.contact--and--form {
+    display: flex;
+    justify-content: space-evenly;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.nom {
+    display: flex;
+}
